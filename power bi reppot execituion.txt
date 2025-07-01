@@ -1,0 +1,10 @@
+s1__ETL process E-Extract
+                T- Transaform
+                L- Load
+s2__ Data modeling
+s3__DEX process D-Data
+                E-Analysis               
+                X-Execution
+s4__Repot modeling
+s__5 Publish report
+s6__ Dashboard creation

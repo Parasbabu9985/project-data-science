@@ -1,0 +1,30 @@
+<html>
+<head>
+<script>
+//required
+function sw()
+{
+//alert("hi hi")
+var a=document.getElementById("name").value;
+if(a=="")
+{
+document.getElementById("sp").innerHTML="invalid";
+document.getElementById("sp").style.color="red";
+document.getElementById("name").style.border=" 2px solid red";
+
+
+
+}
+
+}
+
+</script>
+</head>
+<body>
+NAme
+<input type="text" id="name"/>
+</br>
+<input type="button" value="check" onclick="sw()"/>
+<span id="sp"></span>
+</body>
+</html>

@@ -1,0 +1,34 @@
+<html>
+<head>
+<script>
+//confirm 
+function sw()
+{
+var t1=document.getElementById("h1").innerHTML;
+var t2=document.getElementById("h5").innerHTML;
+var status=window.confirm("swap or not");
+if(status==true)
+{
+document.getElementById("h1").innerHTML=t2;
+document.getElementById("h5").innerHTML=t1;
+}
+else
+{
+alert("pagal ho tum swap nahee hoga")
+}
+
+
+
+}
+
+
+
+
+</script>
+</head>
+<body>
+<h1 id ="h1">paras babu</h1>
+<h5 id ="h5">softpro india</h5>
+<input type="button" value="swap" onclick="sw()"/>
+</body>
+</html>
